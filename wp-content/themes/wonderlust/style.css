@@ -924,3 +924,33 @@ object {
 .gallery-caption {
 	display: block;
 }
+
+/* =====================?============= */
+/* * * * * * WONDERLUST 2016 * * * * * */
+/* VIIKSIPOJAT http://viiksipojat.fi ♡ */
+/* =================================== */
+
+@font-face {
+	font-family: 'kimalainen';
+	src: url('fonts/kimalainen.otf') format('opentype'),
+	     url('fonts/kimalainen.ttf') format('truetype');
+}
+
+body {
+	background-color: #ff2a2a;
+	color: #000000;
+}
+
+h1 {
+	font-family: kimalainen, serif;
+}
+
+h1 > a, h1 > a:visited, h1 > a:active {
+	color: #000000;
+	text-decoration: none;
+}
+
+#page {
+	width: 870px;
+	margin: 0 auto;
+}
