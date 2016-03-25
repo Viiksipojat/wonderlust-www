@@ -28,10 +28,17 @@
 				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 		</div><!-- .site-branding -->
 
+		<ol id="lang-switcher">
+			<li class="<?php echo qtranxf_getLanguage() == 'fi' ? 'active' : ''; ?>"><a href="/fi">FI</a></li>
+			<li class="plain">/</li>
+			<li class="<?php echo qtranxf_getLanguage() == 'en' ? 'active' : ''; ?>"><a href="/en">EN</a></li>
+		</ol>
+
 		<nav id="site-navigation" class="main-navigation" role="navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'wonderlust2016' ); ?></button>
 			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 		</nav><!-- #site-navigation -->
+
 
 	</header><!-- #masthead -->
 

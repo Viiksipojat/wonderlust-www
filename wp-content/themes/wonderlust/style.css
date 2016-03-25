@@ -941,20 +941,48 @@ body {
 	color: #000000;
 }
 
-h1 {
-	font-family: kimalainen, serif;
+#page {
+	width: 870px;
+	margin: 15px auto;
 }
 
-h1 > a, h1 > a:visited, h1 > a:active {
+/* HEADER STUFF */
+.site-branding {
+	float: left;
+}
+#lang-switcher {
+	float: right;
+}
+.site-title {
+	margin: 0;
+	font-family: kimalainen, serif;
+}
+.site-title > a, .site-title > a:visited, .site-title > a:active {
 	color: #000000;
 	text-decoration: none;
 }
 
-#page {
-	width: 870px;
-	margin: 0 auto;
+#lang-switcher {
+	list-style-type: none;
+}
+#lang-switcher > li {
+	display: inline;
+	border: 1px solid #000000;
+	padding: 2px;
+}
+#lang-switcher > li.plain {
+	border: none;
+	padding: 0;
+}
+#lang-switcher > li.active {
+	background-color: #ffffff;
+}
+#lang-switcher > li > a {
+	text-decoration: none;
+	color: #000000;
 }
 
+/* FOOTER STUFF */
 #colophon {
 	font-family: kimalainen, serif;
 	text-align: center;
