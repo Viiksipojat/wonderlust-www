@@ -152,7 +152,7 @@ require get_template_directory() . '/inc/customizer.php';
 require get_template_directory() . '/inc/jetpack.php';
 
 // Events custom post type
-function custom_event_type() {
+/*function custom_event_type() {
 	$labels = array(
     'name'               => _x( 'Events', 'post type general name' ),
     'singular_name'      => _x( 'Event', 'post type singular name' ),
@@ -178,4 +178,4 @@ function custom_event_type() {
   );
   register_post_type( 'event', $args );
 }
-add_action( 'init', 'custom_event_type' );
+add_action( 'init', 'custom_event_type' );*/
