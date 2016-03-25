@@ -92,4 +92,6 @@ Thumbs.db
 # add your own entries here
 !wp-content/mu-plugins/example-mu-plugin/
 !wp-content/plugins/qtranslate-x/
+!wp-content/plugins/acf-qtranslate/
+!wp-content/plugins/advanced-custom-fields/
 !wp-content/themes/wonderlust/
