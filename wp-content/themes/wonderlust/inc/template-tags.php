@@ -59,11 +59,11 @@ function wonderlust2016_entry_footer() {
 		}
 	}
 
-	if ( ! is_single() && ! post_password_required() && ( comments_open() || get_comments_number() ) ) {
+	/*if ( ! is_single() && ! post_password_required() && ( comments_open() || get_comments_number() ) ) {
 		echo '<span class="comments-link">';
 		comments_popup_link( esc_html__( 'Leave a comment', 'wonderlust2016' ), esc_html__( '1 Comment', 'wonderlust2016' ), esc_html__( '% Comments', 'wonderlust2016' ) );
 		echo '</span>';
-	}
+	}*/
 
 	edit_post_link(
 		sprintf(
