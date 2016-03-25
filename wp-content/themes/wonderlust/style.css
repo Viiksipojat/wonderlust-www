@@ -954,3 +954,15 @@ h1 > a, h1 > a:visited, h1 > a:active {
 	width: 870px;
 	margin: 0 auto;
 }
+
+#colophon {
+	font-family: kimalainen, serif;
+	text-align: center;
+}
+#colophon a {
+	text-decoration: none;
+	color: #000000;
+}
+#colophon a:hover {
+	text-decoration: underline;
+}
