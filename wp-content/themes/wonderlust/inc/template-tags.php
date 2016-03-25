@@ -64,16 +64,6 @@ function wonderlust2016_entry_footer() {
 		comments_popup_link( esc_html__( 'Leave a comment', 'wonderlust2016' ), esc_html__( '1 Comment', 'wonderlust2016' ), esc_html__( '% Comments', 'wonderlust2016' ) );
 		echo '</span>';
 	}*/
-
-	edit_post_link(
-		sprintf(
-			/* translators: %s: Name of current post */
-			esc_html__( 'Edit %s', 'wonderlust2016' ),
-			the_title( '<span class="screen-reader-text">"', '"</span>', false )
-		),
-		'<span class="edit-link">',
-		'</span>'
-	);
 }
 endif;
 
