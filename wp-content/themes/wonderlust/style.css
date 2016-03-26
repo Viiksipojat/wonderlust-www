@@ -777,7 +777,7 @@ a:active {
 }
 
 .hentry {
-	margin: 0 0 1.5em;
+	/*margin: 0 0 1.5em;*/
 }
 
 .byline,
@@ -987,10 +987,37 @@ body {
 /* CONTENT STUFF */
 article {
 	background-color: rgba(255,255,255,0.4);
-	padding: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
 	width: 600px;
+	margin-bottom: 100px;
+}
+.entry-header {
+	padding-top: 4px;
+}
+.entry-title, h2.date {
+	font-family: kimalainen, serif;
+	font-size: 18px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+h2.location, h2.price {
+	font-family: sans-serif;
+	font-size: 14px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+h2.price {
+	border: 1px solid #000000;
+	display: inline-block;
+	padding: 2px 5px;
 }
 
+.entry-content {
+	margin: 0;
+	font-family: sans-serif;
+	font-size: 18px;
+}
 
 /* FOOTER STUFF */
 #colophon {
