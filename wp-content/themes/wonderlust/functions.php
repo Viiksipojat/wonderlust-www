@@ -179,3 +179,11 @@ function custom_event_type() {
   register_post_type( 'event', $args );
 }
 add_action( 'init', 'custom_event_type' );
+
+/*function add_search_box_to_menu( $items, $args ) {
+    if( $args->theme_location == 'primary' )
+        return $items.get_search_form();
+
+    return $items;
+}
+add_filter('wp_nav_menu_items','add_search_box_to_menu', 10, 2);*/
