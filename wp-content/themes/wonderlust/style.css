@@ -964,24 +964,36 @@ body {
 	text-decoration: none;
 }
 
-#lang-switcher {
-	list-style-type: none;
+#site-navigation {
+	margin: 10px 0;
 }
-#lang-switcher > li {
+#primary-menu, #lang-switcher {
+	list-style-type: none;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+#primary-menu > li, #lang-switcher > li {
 	display: inline;
 	border: 1px solid #000000;
 	padding: 2px;
+}
+#primary-menu > li {
+	margin-right: 5px;
 }
 #lang-switcher > li.plain {
 	border: none;
 	padding: 0;
 }
-#lang-switcher > li.active {
+#primary-menu > li.current-menu-item, #lang-switcher > li.active {
 	background-color: #ffffff;
 }
-#lang-switcher > li > a {
+#primary-menu > li > a, #lang-switcher > li > a {
 	text-decoration: none;
 	color: #000000;
+}
+
+ {
+
 }
 
 /* CONTENT STUFF */
