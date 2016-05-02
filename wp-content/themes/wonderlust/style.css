@@ -994,9 +994,18 @@ font-weight:normal;
 }
 
 #primary-menu > li, #lang-switcher > li {
-	display: inline;
+	display: inline-block;
 	border: 1px solid #000000;
+	padding: 0;
+}
+
+#primary-menu > li > a, #lang-switcher > li > a {
 	padding: 4px 7px 2px 7px;
+}
+
+#primary-menu > li > a:hover, #lang-switcher > li > a:hover {
+	background-color: black;
+	color: white;
 }
 
 #primary-menu > li {
