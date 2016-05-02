@@ -34,10 +34,10 @@
     <?php
       the_content();
 
-      wp_link_pages( array(
+      /*wp_link_pages( array(
         'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'wonderlust2016' ),
         'after'  => '</div>',
-      ) );
+      ) );*/
     ?>
   </div><!-- .entry-content -->
 </article><!-- #post-## -->
