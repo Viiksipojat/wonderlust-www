@@ -1132,6 +1132,9 @@ div .entry-content .wp-caption-text {
   clear: both;
 }
 
+.event-archive img {
+	margin-bottom: 10px;
+}
 .event-archive .entry-title {
 	color: black;
 	text-decoration: none;
