@@ -1072,6 +1072,10 @@ article {
 	/* TODO */
 }
 
+.wp-post-image {
+	display: block;
+}
+
 .entry-content {
 	margin: 0;
 	font-family: kimalainen, sans-serif;
