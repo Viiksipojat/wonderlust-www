@@ -1076,6 +1076,12 @@ article {
 	display: block;
 }
 
+.wp-caption-text {
+	text-align: left;
+	font-family: kimalainen, sans-serif;
+	font-size: 9px;
+}
+
 .entry-content {
 	margin: 0;
 	font-family: kimalainen, sans-serif;

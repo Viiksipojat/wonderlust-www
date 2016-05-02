@@ -27,7 +27,14 @@
        the_field('price');
       endif;
     ?></h2>
-    <?php the_post_thumbnail('full'); ?>
+    <?php
+      the_post_thumbnail('full');
+      $thumbnail = get_post( get_post_thumbnail_id() );
+      if ($thumbnail->post_excerpt):
+        echo '<figcaption class="wp-caption-text">' . $thumbnail->post_excerpt . '</figcaption>';
+      endif;
+    ?>
+
   </header><!-- .entry-header -->
 
   <div class="entry-content">
