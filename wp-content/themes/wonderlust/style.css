@@ -1029,17 +1029,22 @@ article {
 	padding-top: 4px;
 }
 
-.entry-title, .date {
+.entry-title {
 	font-family: kimalainen, serif;
 	font-size: 24px;
 	margin-top: 4px;
 	margin-bottom: 4px;
 }
+.date {
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+}
 .location, .price {
 	font-family: sans-serif;
 	font-size: 14px;
 }
-.location {
+.date, .location {
 	margin-top: 4px;
 	margin-bottom: 6px;
 }
@@ -1048,7 +1053,14 @@ article {
 	display: inline-block;
 	padding: 2px 5px;
 	margin-top: 2px;
-	margin-bottom: 2px;
+	margin-bottom: 18px;
+}
+.price > a {
+	text-decoration: none;
+	color: black;
+}
+.price > a:hover {
+	/* TODO */
 }
 
 .entry-content {
