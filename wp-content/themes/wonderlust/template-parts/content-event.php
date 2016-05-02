@@ -18,9 +18,9 @@
       if (get_field('purchase_url')):
         echo '<a href="' . get_field('purchase_url') . '">' . get_field('price') . ' ';
         if (get_locale() == 'fi_FI'):
-          echo 'OSTA LIPPU';
+          echo '/ OSTA LIPPU';
         else:
-          echo 'BUY A TICKET';
+          echo '/ BUY A TICKET';
         endif;
         echo '</a>';
       else:
